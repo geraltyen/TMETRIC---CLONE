@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: rgb(41,46,51);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper{
+    position:relative;
+}
+#head{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(232,237,255);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: block;
+
+}
+#head h1{
+    font-size: 60px;
+    margin-top: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(41,46,51);
+    
+    line-height: 2;
+}
+#head p{
+    font-size: 19px;
+    margin-top:5px ;
+}
+
+#maths{
+    width: 90%;
+    height: 80px;
+    border: 1px solid grey;
+    margin-top:350px ;
+    margin-left: 5%;
+    display: flex; 
+       
+}
+#maths div{
+
+}
+
+
+#features{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-bottom: 40px;
+}
+#features>div{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: fit-content;
+    
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.listunstyled>div{
+    font-size: 50px;
+    margin-top: 30px;
+    border: 0px solid grey;
+    width: 50%;
+    margin-left:25%;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: rgb(246,247,248)
+    ;
+
+}
+.listunstyled>div>p{
+    font-size: 20px;
+}
+.listunstyled>div span{
+    font-size: 50px;
+}
+.listunstyled{
+    text-align: center;
+}
+
+.listunstyled h1{
+    margin-top: 50px;
+}
+.listunstyled ul{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 28%;
+   list-style-image: url('images/Right.png');
+   font-weight: bold;
+
+}
+.listunstyled ul li{
+    width: 68%;
+    border-bottom: 1px solid rgb(210, 205, 205);
+    line-height: 2;
+    margin-top: 20px;
+}
+.nofeature{
+    color:gray
+    
+}
+#logpart{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+#logpart button{
+    display: inline;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(48,112,240);
+    color: white;
+}
+#logpart button:hover{
+    background-color: rgb(4, 48, 137);
+    cursor: pointer;
+}
+#logpart p:nth-child(2){
+    color: rgb(55, 47, 47);
+    display: inline;
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+#logpart p:nth-child(3){
+    color: black;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+#logpart p a{
+    color: blue;
+    font-weight: bold;
+    
+}
+
