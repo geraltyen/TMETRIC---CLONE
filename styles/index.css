@@ -1,117 +1,58 @@
-#navbar{
-    width:90vw;
-    
-    margin: auto;
-    height: 500px;
+#head{
+    background-color: rgb(255,240,184);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 520px;
+    display: flex;
 
 }
-#navback{
-    
-    background-color: #fff0b8;
-}
-#container{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
+#lefthead{
+    width: 40%;
+    margin-left: 9%;
+    margin-top: 100px;
     
 }
-#en{
-    display: flex;
-    border: 0.5px solid rgba(10, 234, 246, 0.685);
-    height: 32px;
+#lefthead h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#lefthead>p:nth-child(2){
     font-size: 20px;
-    align-items: center;
-    padding: 1px 6px;
-    border-radius: 9px;
-
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 1.5;
 }
-#en:hover{
-    background-color: white;
-}
-#en>img{
-    height: 20px;
-    margin: auto;
-}
-#container>div:nth-child(1){
-    font-size: 30px;
-    margin: 0 5px 0 5px;   
-}
-#logo{
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 5%;
-}
-#menu{
-    display: flex;
-    width: 50%;
-    gap:5%;
+#lefthead input{
+    padding: 5px 20px;
     font-size: 18px;
-    margin: 0 0 0 20%;
-
+    width: 60%;
+    height: 40px;
+    margin-top:15px;
+    border: 1px solid cornflowerblue;
+    
+   
 }
-#menu>div:hover{
-    color: rgb(0, 170, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#sign{
-
-    display: flex;
-    gap: 5%;
-    width: 30%;
-    font-size: 20px;
-
-}
-#sign>div:first-child{
-    margin-left: 50%;
-    display: flex;
-    align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#sign>div+div{
-    border: 1px solid rgb(0, 110, 255);
-    padding: 5px 9px;
-    border-radius: 10px;
-    color: rgb(0, 98, 255);
-}
-#sign>div+div:hover{
+#lefthead button{
+    margin-top: 20px;
+    border: 1px solid royalblue;
     background-color: royalblue;
     color: white;
+    padding: 12px 40px;
+    border-radius: 6px;
     
 }
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  #navbox {
-    background-color: #fff0b8;
-    height: 500px;
-    width: 100%;
-  }
-  
-  nav ul {
-    float: right;
-    margin-right: 100px;
-  }
-  nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-    font-size: 17px;
-  }
-  #lefthead{
-    width: 50%;
-  }
-  #righthead{
-    width: 50%;
-  }
- 
+#lefthead button:hover{
+background-color: rgb(24, 70, 210);
+cursor: pointer;
+}
+#lefthead p:nth-child(5){
+    display: inline;
+    margin-left: 15px;
+    color: gray;   
+}
+
+#righthead{
+    margin-top:5% ;
+    margin-left: 2%;
+}
