@@ -1,0 +1,55 @@
+#foot{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 30px 50px;
+    gap: 2%;
+    background-color: rgb(235,237,240);
+
+}
+#lastlogo{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+
+}
+#lastlogo div{
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+}
+
+#lastlogo img{
+    width:20%;
+    
+    margin-top: 10px;
+    display: inline;
+}
+.apps{
+    width: 15%;
+    margin-bottom: 5px;
+
+}
+.apps div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 3;
+}
+.apps img{
+    margin-right: 10px;
+}
+#browse{
+    width: 15%;
+}
+#resources{
+    width: 15%;
+}
+#about{
+    width: 15%;
+}
+
+.resources{
+    line-height: 3;
+}

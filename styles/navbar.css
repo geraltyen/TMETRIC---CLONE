@@ -24,6 +24,7 @@ header{
     align-items: center;
     padding: 30px 9.5%;
     padding-top: 10px;
+    background-color: rgb(255,240,184);
 }
 #logo{
     display: flex;
@@ -91,4 +92,7 @@ header button:hover{
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+@media {
+    
 }
