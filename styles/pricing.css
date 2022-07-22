@@ -32,13 +32,15 @@
 }
 
 #maths{
-    width: 90%;
+    width: 86%;
     height: 80px;
-    border: 1px solid grey;
+   
     margin-top:350px ;
-    margin-left: 5%;
+    margin-left: 7%;
     display: flex; 
-       
+    padding: 20px 100px; 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;  
 }
 #maths div{
 
@@ -91,19 +93,44 @@
     margin-top: 40px;
     text-align: left;
     margin-left: 28%;
-   list-style-image: url('images/Right.png');
+   /*list-style-image: url('Right1.png');*/
+
    font-weight: bold;
 
+}
+.feature::before{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    
+    background-image: url('Right1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 .listunstyled ul li{
     width: 68%;
     border-bottom: 1px solid rgb(210, 205, 205);
     line-height: 2;
     margin-top: 20px;
+    list-style: none;
 }
 .nofeature{
-    color:gray
+    color:grey;
+    list-style: none;
     
+}
+.nofeature::before{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    
+    background-image: url('Wrong.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 #logpart{
     margin-top: 20px;
@@ -142,4 +169,202 @@
     font-weight: bold;
     
 }
+#period{
+    width: 40%;
+}
+#periodid{
+    font-size: 25px;
+    margin-right: 20px;
+}
+#annualid{
+    font-size: 25px;
+    color: grey;
+    margin-left: 20px;
+}
+.switch{
+    width: 25px;
+    height: 20px;
+}
 
+.divider{
+    border: 1px solid grey;
+    width: 1px;
+    height: 100%;
+    margin: 0 2%;
+    
+}
+
+.teamsize{
+    font-size: 25px;
+    width: 50%;
+}
+.teamsize input{
+    font-size: 25px;
+    width: 20%;
+    margin-left: 1;
+    
+}
+.teamsize input:nth-child(3){
+    width: 40%;
+    
+    margin-left: 2%;
+}
+#buy{
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+}
+#buy h1{
+    text-align: center;
+    margin: 0 50px 100px 0;
+    color: black;
+}
+#buy ol{
+    width: 60%;
+    margin-left: 33%;
+    
+}
+#buy ol li{
+    margin: auto;
+    line-height: 5;
+    font-size: 16px;
+    font-weight: bold;
+}
+#buy ol li a{
+    color: rgb(51, 51, 213);
+    font-size: 16px;
+}
+#buy ol li span{
+    font-size: 18px;
+}
+
+#Question{
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+}
+#inside{
+    width: 60%;
+    margin: auto;
+}
+.que{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 20px;
+
+}
+.ans{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 20px;
+
+}
+.que div{
+    display: inline;
+    margin-left: 2%;
+    padding: 20px 40px;
+    border-radius: 0 15px 15px 15px;
+    
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-weight: bold;
+    margin
+}
+.que img{
+    display: inline;
+}
+.ans div{
+    display: inline;
+    margin-left: 2%;
+    padding: 20px 40px;
+    border-radius: 0 15px 15px 15px;
+    background-color: rgb(248,249,250);
+    
+    line-height: 1.5;
+    
+}
+.ans div a{
+    color: rgb(4, 48, 137);
+    font-weight: bold;
+}
+
+#last{
+    width: 100%;
+    height: 250px;
+    padding: 60px 60px;
+    background: rgb(229,216,239);
+    background: linear-gradient(90deg, rgba(229,216,239,1) 23%, rgba(119,219,255,1) 32%, rgba(203,239,229,1) 42%, rgba(255,213,222,1) 65%, rgba(255,212,184,1) 89%);
+    text-align: center;
+    
+}
+#last>h2{
+    font-size: 40px;
+}
+#last button{
+    margin-top: 3%;
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: 0;
+    background-color: rgb(51, 51, 213);
+    color: white;
+    cursor: pointer;
+}
+#last button:hover{
+    background-color: rgb(3, 18, 47);
+}
+#foot{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 30px 50px;
+    gap: 2%;
+    background-color: rgb(235,237,240);
+
+}
+#lastlogo{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+
+}
+#lastlogo div{
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+}
+
+#lastlogo img{
+    width:20%;
+    
+    margin-top: 10px;
+    display: inline;
+}
+.apps{
+    width: 15%;
+    margin-bottom: 5px;
+
+}
+.apps div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 3;
+}
+.apps img{
+    margin-right: 10px;
+}
+#browse{
+    width: 15%;
+}
+#resources{
+    width: 15%;
+}
+#about{
+    width: 15%;
+}
+
+.resources{
+    line-height: 3;
+}

@@ -51,9 +51,20 @@
 
     <div id="body">
         <div id="maths">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div class="period">
+                <label id="periodid" for="paymentPeriod">Monthly</label>
+                <span>
+                    <input type="checkbox" class="switch">
+                </span>
+                <label id="annualid" for="paymentPeriod">Annually</label>
+            </div>
+            <div class="divider"></div>
+            <div class="teamsize">
+                <label for="teamsize">Team Size</label>
+                <input id="teamsizenumber" type="number">
+                <input id="teamrange" type="range" value="1" min="1" max="7" step="1">
+            </div>
+            
         </div>
         <div id="features">
             <div class="listunstyled">
@@ -63,27 +74,27 @@
                 </div>
             
                 <ul>
-                    <li>Time tracking</li>
-                    <li>Unlimited projects and clients</li>
-                    <li>Reporting</li>
-                    <li>Timer button in 50+ web apps</li>
-                    <li>Calendar integrations: Google, Outlook</li>
-                    <li>Billable rates and money tracking</li>
-                    <li>Budgeting for projects</li>
-                    <li>Invoicing</li>
-                    <li>Task management</li>
-                    <li>Activity levels for employees</li>
-                    <li>Apps and sites usage reports</li>
-                    <li>Screenshots capturing</li>
-                    <li>Client logins for access to reports</li>
-                    <li>Paid time off tracking</li>
-                    <li>Payroll for employees</li>
-                    <li>Time tracking permissions</li>
-                    <li>Time-sync with Jira and QuickBooks</li>
-                    <li>Time-sync with GitLab and Redmine</li>
-                    <li>Time Off Calendar</li>
-                    <li>Work Schedule</li>
-                    <li>Team Dashboard</li>
+                    <li class="feature">Time tracking</li>
+                    <li class="feature">Unlimited projects and clients</li>
+                    <li class="feature">Reporting</li>
+                    <li class="feature">Timer button in 50+ web apps</li>
+                    <li class="feature">Calendar integrations: Google, Outlook</li>
+                    <li class="feature">Billable rates and money tracking</li>
+                    <li class="feature">Budgeting for projects</li>
+                    <li class="feature">Invoicing</li>
+                    <li class="feature">Task management</li>
+                    <li class="feature">Activity levels for employees</li>
+                    <li class="feature">Apps and sites usage reports</li>
+                    <li class="feature">Screenshots capturing</li>
+                    <li class="feature">Client logins for access to reports</li>
+                    <li class="feature">Paid time off tracking</li>
+                    <li class="feature">Payroll for employees</li>
+                    <li class="feature">Time tracking permissions</li>
+                    <li class="feature">Time-sync with Jira and QuickBooks</li>
+                    <li class="feature">Time-sync with GitLab and Redmine</li>
+                    <li class="feature">Time Off Calendar</li>
+                    <li class="feature">Work Schedule</li>
+                    <li class="feature">Team Dashboard</li>
                 </ul>
                
             </div>
@@ -95,16 +106,16 @@
                     <p>$<span>5</span>/month</p>
                </div>
                 <ul>
-                    <li>Time tracking</li>
-                    <li>Unlimited projects and clients</li>
-                    <li>Reporting</li>
-                    <li>Timer button in 50+ web apps</li>
-                    <li>Calendar integrations: Google, Outlook</li>
-                    <li>Billable rates and money tracking</li>
-                    <li>Budgeting for projects</li>
-                    <li>Invoicing</li>
-                    <li>Task management</li>
-                    <li>Activity levels for employees</li>
+                    <li class="feature">Time tracking</li>
+                    <li class="feature">Unlimited projects and clients</li>
+                    <li class="feature">Reporting</li>
+                    <li class="feature">Timer button in 50+ web apps</li>
+                    <li class="feature">Calendar integrations: Google, Outlook</li>
+                    <li class="feature">Billable rates and money tracking</li>
+                    <li class="feature">Budgeting for projects</li>
+                    <li class="feature">Invoicing</li>
+                    <li class="feature">Task management</li>
+                    <li class="feature">Activity levels for employees</li>
                     <li class="nofeature">Apps and sites usage reports</li>
                     <li class="nofeature">Screenshots capturing</li>
                     <li class="nofeature">Client logins for access to reports</li>
@@ -127,10 +138,10 @@
                     <p>$<span>0</span>/month</p>
                </div>
                <ul>
-                    <li>Time tracking</li>
-                    <li>Unlimited projects and clients</li>
-                    <li>Reporting</li>
-                    <li>Timer button in 50+ web apps</li>
+                    <li class="feature">Time tracking</li>
+                    <li class="feature">Unlimited projects and clients</li>
+                    <li class="feature">Reporting</li>
+                    <li class="feature">Timer button in 50+ web apps</li>
                     <li class="nofeature">Calendar integrations: Google, Outlook</li>
                     <li class="nofeature">Billable rates and money tracking</li>
                     <li class="nofeature">Budgeting for projects</li>
@@ -159,12 +170,125 @@
     
 
     <div id="logpart">
-        <button>Get Started</button>
+        <a href="signup.html"><button>Get Started</button></a>
         <p>Fully Functional 30-Day Trial</p>
         <p>Check out <a href="#">detailed plan comparision</a></p>
     </div>
     <hr>
+    <div id="buy">
+        <h1>How to Buy?</h1>
+        <ol>
+            <li><a href="Login.html">Log in </a>to your TMetric account. If you don't have one, <a href="signup.html">sign up </a>now.</li>
+            <li>On the main menu, click <span>Workspace </span>and select <span> Subscription.</span></li>
+            <li>On the subscription page click <span>Upgrade Now.</span></li>
+            <li>Enter your team size, select subscription plan, and click <span>Proceed To Checkout.</span></li>
+            <li>On the shopping cart page enter your Billing Information and select Payment Options.</li>
+            <li>Click <span>Continue </span>to place an order.</li>
+        </ol>  
+    </div>
+   <hr>
+   <div id="Question">
+    <div id="inside">
+    <div class="que">
+        <img src="./styles/images/q.png" alt="">
+        <div>Have a large team?</div>
+    </div>
+    <div class="ans">
+        <img src="./styles/images/a.png" alt="">
+        <div>You can save money with our volume discount for teams of 40+ users. Learn more on <a href="#">FAQ.</a>  </div>
+    </div>
+    
+    
+    <div class="que">
+        <img src="./styles/images/q.png" alt="">
+        <div>Running a non-profit organization?</div>
+    </div>
+    <div class="ans">
+        <img src="./styles/images/a.png" alt="">
+        <div>We offer special <a href="">pricing options for non-profit </a>  and education organizations. To apply, please <a href="">contact </a>  the sales team.</div>
+    </div>
+    <div class="que">
+        <img src="./styles/images/q.png" alt="">
+        <div>Have other sales questions?</div>
+    </div>
+    <div class="ans">
+        <img src="./styles/images/a.png" alt="">
+        <div>Please contact our sales department at sales <a href="#"> sales@tmetric.com</a></div>
+    </div>
+
+   </div>
 </div>
+
+<div id="last">
+    <h2>Make time work for you!</h2>
+   <a href="signup.html"><button>Start Free Trial</button></a> 
+</div>
+
+
+</div>
+    <footer>
+        <div id="foot">
+            <div id="lastlogo">
+                <div>
+                <a href="index.html">
+                    
+                <img src="https://basecamp.com/assets/extras/tmetric-e84b022c749757cdcb91de8155299e1b98e025105fe47a4a67d685283ea51781.png" alt="">
+                <p>TMETRIC</p>
+                </a>
+            </div>
+            </div>
+            <div class="apps">
+                <div>
+                    <img style="width: 32px;" src="./styles/images/desk.png" alt="">
+                    <a href="#">Desktop</a>
+                </div>
+                <div>
+                    <img " src="./styles/images/ios.png" alt="">
+                    <a href="#">iOS</a>
+                </div>
+                <div>
+                    <img " src="./styles/images/android.png" alt="">
+                    <a href="#">Android</a>
+                </div>
+            </div>
+            <div class="apps">
+                <div>
+                    <img " src="./styles/images/chrome1.png" alt="">
+                    <a href="#">Chrome</a>
+                </div>
+                <div>
+                    <img " src="./styles/images/firefox.png" alt="">
+                    <a href="#">Firefox</a>
+                </div>
+                <div>
+                    <img " src="./styles/images/opera.png" alt="">
+                    <a href="#">Opera</a>
+                </div>
+                <div>
+                    <img " src="./styles/images/edge.png" alt="">
+                    <a href="#">Edge</a>
+                </div>
+                <div>
+                    <img " src="./styles/images/safari.png" alt="">
+                    <a href="#">Safari</a>
+                </div>
+            </div>
+            <div class="resources">
+                <p><a href="#">Solutions</a></p>
+                <p><a href="#">Integrations</a></p>
+                <p><a href="#">Help</a></p>
+                <p><a href="#">Time Trackers Comparision</a></p>
+                <p><a href="#">Blog</a></p>
+            </div>
+            <div class="resources">
+                <p><a href="#">About TMetric</a></p>
+                <p><a href="#">Terms of Service</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Cookies Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 </html>
