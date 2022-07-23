@@ -29,6 +29,6 @@ if(signupdetails.forEach(function(e,i){
     
     signupdetails.push(obj)
     localStorage.setItem("signup",JSON.stringify(signupdetails))
-  
+    
 })
 
