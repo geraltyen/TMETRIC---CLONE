@@ -1,3 +1,5 @@
+
+
 #head{
     background-color: rgb(255,240,184);
     position: absolute;
@@ -61,6 +63,7 @@
 #lefthead button:hover{
 background-color: rgb(24, 70, 210);
 cursor: pointer;
+transition: all 0.3s ease-in 0s;
 }
 #lefthead p:nth-child(5){
     display: inline;
@@ -179,9 +182,281 @@ hr{
     padding: 5%;
     justify-content: center;
 }
-.papers div{
+.cardli{
     width: 40%;
+}
+.imgcard{
+    width: 55%;
 }
 .papers img{
     width: 100%;
+}
+.papers h1{
+    font-size: 60px;
+}
+.papers ul{
+    margin-left: 50px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(7,35px);
+}
+.papers ul li{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.papers ul li a{
+    color: rgb(48, 112, 240);
+    font-size: 20px;
+}
+.papers ul li a:hover{
+    color: orange;
+    transition: all 0.3s ease-in 0s;
+}
+.papers button{
+    border: 0;
+    padding: 10px 20px;
+    width: 30%;
+    border-radius: 7px;
+    background-color: rgb(48, 112, 240);
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.papers button:hover{
+    background-color: rgb(24, 70, 210);
+    transition: all 0.3s ease-in 0s;
+}
+
+#integration{
+    width: 90%;
+    margin: auto;
+    
+}
+#inthead{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+#inthead h1{
+    font-size: 50px;
+    line-height: 2;
+}
+#inthead p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+#inthead>a{
+    color: rgb(24, 70, 210);
+    font-weight: bold;
+    margin-left: 20px;
+}
+#inthead>a:hover{
+    color: orange;
+    transition:  all 0.3s ease-in 0s;
+}
+#inthead button{
+    margin-right: 20px;
+    border:0;
+    background-color: rgb(48, 112, 240);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#inthead button:hover{
+    background-color: rgb(24, 70, 210);
+    transition: all 0.3s ease-in 0s;
+}
+#intbod1{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 1%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#intbod1 div{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+#intbod1 div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.3s ease-in 0s;
+}
+#intbod2{
+    width: 45%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1.5%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#intbod2 div{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+#intbod2 div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 0.3s ease-in 0s;
+}
+#rh1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+}
+#review{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+#reviewleft p{
+    line-height: 2;
+    font-weight: bolder;
+}
+#reviewleft>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 30px;
+}
+
+#reviewleft>div:nth-child(2) a{
+    color: rgb(48, 112, 240);
+    font-weight: bolder;
+}
+#reviewleft>div:nth-child(2) a:hover{
+    color: orange;
+    transition: all 0.3s ease-in;
+}
+
+#reviewright{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#revmenu{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 100px;
+}
+#revmenu div{
+    cursor: pointer;
+    color: gray;
+
+
+}
+#revmenu div:hover{
+    color: rgb(48, 112, 240);
+    transition: all 0.1s ease-in 0s;
+    font-weight: bolder;
+}
+#revhr{
+    width: 50%;
+    margin: auto;
+    
+}
+#rev2{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 2%;
+    
+    background-color: rgb(255,242,204);
+}
+#rev2 h1{
+    font-size: 40px;
+    line-height: 2.5;
+}
+#rev2 a{
+    color: rgb(24, 70, 210);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#rev3{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    background-color:rgb(246,247,248);
+    margin-top: -20px;
+}
+#rev3 p{
+    margin-top: 20px;
+    line-height: 6;
+}
+#reason{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+#reason>h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#reason>div{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 3%;
+    margin: auto;
+
+}
+#reason>div div{
+    height: 250px;
+    padding: 7% 13% 15% 13%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 15px;
+}
+#lastabv{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 5;
+    color: white;
+    
+    background-color: ;background: rgb(65,51,143);
+    background: linear-gradient(90deg, rgba(65,51,143,1) 6%, rgba(97,76,210,1) 23%, rgba(65,51,143,1) 42%, rgba(99,80,204,1) 65%, rgba(62,67,199,1) 96%);
+}
+
+#lastabv h1{
+    font-size: 50px;
+}
+#lastabv button{
+    margin-right: 20px;
+    border:0;
+    background-color: rgb(48, 112, 240);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#lastabv button:hover{
+    background-color: rgb(24, 70, 210);
+    transition: all 0.3s ease-in 0s;
 }
