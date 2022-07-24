@@ -78,11 +78,11 @@ transition: all 0.3s ease-in 0s;
 
 #righthead video{
     position: absolute;
-    width: 32%;
-    height: 400px;
+    width: 37%;
+    height: 420px;
     top: 15%;
-    right: 15%;
-    display:none;
+    right: 13%; 
+    
 }
 #pla{
     position: absolute;
@@ -152,7 +152,7 @@ hr{
     display: flex;
     gap: 2%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+    border-radius: 15px;
 }
 .work img{
     height: 50px;
