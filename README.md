@@ -9,7 +9,7 @@ https://clone-expedia.netlify.app/
 # Screenshots:
 
 Screenshot-1:
-![Screenshot-1](https://github.com/geraltyen/Revision/blob/main/images/Free%20Time%20Tracking%20software%20%26%20App%20-%20Google%20Chrome%2016-01-2023%2023_28_55.png)
+![Screenshot-1](https://drive.google.com/file/d/1CEMME0S8dn9z9q5majCvCgATMdWSZYO0/view?usp=share_link)
 
 <hr>
 
