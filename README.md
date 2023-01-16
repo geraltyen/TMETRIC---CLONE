@@ -9,7 +9,8 @@ https://clone-expedia.netlify.app/
 # Screenshots:
 
 Screenshot-1:
-![Screenshot-1](https://drive.google.com/file/d/1CEMME0S8dn9z9q5majCvCgATMdWSZYO0/view?usp=share_link)
+![Screenshot-1]
+<img src="https://drive.google.com/file/d/1CEMME0S8dn9z9q5majCvCgATMdWSZYO0/view?usp=share_link" />
 
 <hr>
 
