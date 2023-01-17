@@ -8,18 +8,16 @@ https://clone-expedia.netlify.app/
 
 # Screenshots:
 
-Screenshot-1:
-![Screenshot-1]
-<img src="https://drive.google.com/file/d/1CEMME0S8dn9z9q5majCvCgATMdWSZYO0/view?usp=share_link" />
+![Free Time Tracking software   App - Google Chrome 16-01-2023 23_28_55](https://user-images.githubusercontent.com/105841421/212816211-df4e613b-b816-459b-aa87-470c5da3974a.png)
 
 <hr>
 
 Screenshot-2:
-![Screenshot-2](https://github.com/geraltyen/Revision/blob/main/images/Free%20Time%20Tracking%20software%20%26%20App%20-%20Google%20Chrome%2016-01-2023%2023_29_53.png)
+![Free Time Tracking software   App - Google Chrome 16-01-2023 23_29_53](https://user-images.githubusercontent.com/105841421/212816330-8f07f1ea-3952-4aaa-926f-de4774ddb3f2.png)
 
 <hr>
 
 Screenshot-3:
-![Screenshot-3](https://github.com/geraltyen/Revision/blob/main/images/Free%20Time%20Tracking%20software%20%26%20App%20-%20Google%20Chrome%2016-01-2023%2023_30_13%20(1).png)
+![Free Time Tracking software   App - Google Chrome 16-01-2023 23_30_13 (1)](https://user-images.githubusercontent.com/105841421/212816371-dcbcd5ca-b195-4a6d-8715-af7bb21c5a80.png)
 
 <hr>
