@@ -3,7 +3,7 @@ This Website is a time management Website. Contains apps to track Your progress 
 I have used HTML,JAVASCRIPT,CSS to build the front-end of this Web page
 # Deployed Link
 
-teal-hotteok-90ff2a.netlify.app/
+https://teal-hotteok-90ff2a.netlify.app/
 
 
 # Screenshots:
